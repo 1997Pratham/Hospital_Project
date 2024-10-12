@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+    <ProjectReference Include="..\Hospital_Utility\Hospital_Utility.csproj" />
+    <ProjectReference Include="..\Hospital_ViewModel\Hospital_ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
